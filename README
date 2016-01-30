@@ -1,0 +1,19 @@
+This is still a work in progress. The game only plays through one hand, and the AI plays mostly randomly. The AI is also not capable of selecting trump, or selceting cards from the kitty. I work on this every once in a while.
+
+
+
+A 9-5-2 card game. The game involves three players. Each player is dealt 16 cards, with the 4 remaining cards in the kitty. Each player has a contract for the number of tricks that they must take in the round. The dealer must take 9, the player to the left of the dealer must take 5, and the last person must take 2.
+
+The dealer looks at his or her cards, and decides on a trump suit. A choice of no trump is permitted. The dealer then picks up the kitty, and adds it to his or her hand, and then must discard any 4 cards, be them from the kitty, or the dealer's hand.
+
+Play then begins with the player going for 5 leading for the first trick. The card played first, is the card lead. Every player must play a card of the same suit as the card lead if they have a card of that suit. If they do not have a card of that suit, they may play any card from their hand. The winner of the trick is the highest card played from the trump suit, or the highest card played of the suit lead, if no trump cards were played. The winner of each trick leads the next trick.
+
+After each round, the number of tricks that each player won is counted. The player's contract is then subtracted from their trick count. If the result positive, the player has gone over, and gets that number of points. If the number is negative, the player has gone under, and loses those points.
+
+In the next round, the deal moves left (to the person who had previously went for 5), and all the contracts move left accordingly.
+
+At the start of the next round, before trump has been called, the players who have gone over pass as many cards from their hand as points they went over to players who have gone under, such that each player that has gone under receives as many cards as points they have gone under. The player who received cards much give the highest card they have of the same suit for each card received. They may pass back the card received if it is the highest. If two players went over, the player with the highest contract for the upcoming round passes cards first.
+
+The game then continues as before.
+
+The game ends when someone reaches a certain number of points, either positive or negative. Typically it is +/- 15.
